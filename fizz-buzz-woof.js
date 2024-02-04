@@ -40,8 +40,8 @@ function generateOutput(number) {
         let output = "";
         // Loop through the digits to populate output text
         // example result:
-        // - if countResult for 3 is 2, then will populate FizzFizz
-        // - if countResult for 5 is 4, then will populate BuzzBuzzBuzzBuzz
+        // - if countResult for 3 is 2, then will populate Fizz Fizz
+        // - if countResult for 5 is 4, then will populate Buzz Buzz Buzz Buzz
         // - if countResult for 7 is 1, then will populate Woof
         for (const digit of digitList) {
             // Repeat the corresponding text for the current digit based on its count in countResult
